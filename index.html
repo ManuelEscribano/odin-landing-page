@@ -6,11 +6,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <link rel="shortcut icon" href="./icons/favicon.png" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Yuji+Syuku&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
     <title>| Landing Page</title>
   </head>
   <body>
     <nav class="navbar">
-      <img class="logo" src="./icons/germany.png" alt="Image of the logo" />
+      <a
+        href="http://en.wikipedia.org/wiki/Germany"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <img class="logo" src="./icons/germany.png" alt="Image of the logo" />
+      </a>
       <ul class="links">
         <li>
           <a
@@ -55,14 +73,16 @@
     </section>
     <section class="content">
       <h2>Some random information</h2>
-      <ul>
+      <ul class="items-cont">
         <li>
           <img
             class="content-img"
             src="./images/bird.jpg"
             alt="Just a random image"
           />
-          <p>This is some subtext under an illustration or image</p>
+          <p class="text-cont">
+            This is some subtext under an illustration or image
+          </p>
         </li>
         <li>
           <img
@@ -70,7 +90,9 @@
             src="./images/blueberry.jpg"
             alt="Just a random image"
           />
-          <p>This is some subtext under an illustration or image</p>
+          <p class="text-cont">
+            This is some subtext under an illustration or image
+          </p>
         </li>
         <li>
           <img
@@ -78,7 +100,9 @@
             src="./images/dragonfly.jpg"
             alt="Just a random image"
           />
-          <p>This is some subtext under an illustration or image</p>
+          <p class="text-cont">
+            This is some subtext under an illustration or image
+          </p>
         </li>
         <li>
           <img
@@ -86,12 +110,48 @@
             src="./images/marmot.jpg"
             alt="Just a random image"
           />
-          <p>This is some subtext under an illustration or image</p>
+          <p class="text-cont">
+            This is some subtext under an illustration or image
+          </p>
         </li>
       </ul>
     </section>
-    <section class="quote"></section>
-    <section class="sign-up"></section>
-    <footer></footer>
+    <section>
+      <blockquote cite="https://www.theodinproject.com/">
+        <p class="quote">
+          <i class="quote">
+            This is an inspiring quote, or a testimonial from a customer. Maybe
+            it's just filling up space, or maybe people will actually read it.
+            Who knows? All I know is that it looks nice.
+          </i>
+          <b>- Thor, God of Thunder</b>
+        </p>
+      </blockquote>
+    </section>
+    <section class="sign-up">
+      <div>
+        <h3>Call to action! It's time!</h3>
+        <p>Sign up for our product by clicking that button right over there!</p>
+      </div>
+      <button class="btn-sign">Sign up</button>
+    </section>
+    <footer>
+      <p>Copyright © The Odin Project 2021</p>
+
+      <p>|</p>
+      <a
+        class="gh-icon"
+        target="_blank"
+        href="https://github.com/ManuelEscribano"
+      >
+        <img
+          class="gh-icon"
+          src="./icons/github.png"
+          alt="An icon of Github redirecting you to my profile"
+        />
+      </a>
+      <p>|</p>
+      <p>Made with coffee</p>
+    </footer>
   </body>
 </html>
