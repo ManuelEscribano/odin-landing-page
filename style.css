@@ -127,6 +127,7 @@ h2 {
 .text-cont {
   padding-top: 30px;
   text-align: center;
+  font-size: 17px;
 }
 
 .quote {
@@ -151,6 +152,8 @@ b {
   gap: 150px;
   padding: 80px;
   background-color: #3882f6;
+  color: white;
+  font-size: 20px;
   margin: 150px;
   border-radius: 20px;
 }
